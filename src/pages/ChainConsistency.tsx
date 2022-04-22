@@ -4,6 +4,7 @@ import {
   Box,
   Heading, 
   HStack,
+  Link,
   useDisclosure,
   VStack,
 } from '@chakra-ui/react';
@@ -53,6 +54,7 @@ const ChainConsistencyPage = () => {
     <Box margin='auto' pb={20}>
       <VStack>
         <Heading mt={20}>Simple Chain</Heading>
+        <Link href='https://github.com/warunyoud/simple-block'>Github Repo</Link>
         <HStack 
           width='100%' 
           alignItems='baseline' 
