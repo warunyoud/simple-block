@@ -9,7 +9,7 @@ function App() {
     <ChakraProvider>
       <div className='App'>
         <Routes>
-          <Route path='/' element={<ChainConsistencyPage />} />
+          <Route path='/simple-block' element={<ChainConsistencyPage />} />
         </Routes>
       </div>
     </ChakraProvider>
