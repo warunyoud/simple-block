@@ -18,7 +18,6 @@ import {
 } from '@chakra-ui/react'
 import Transaction from '../entities/Transaction';
 import { wallets } from '../constants/wallets';
-import WalletDrawer from './WalletDrawer';
 
 type TransactionCreationModalProps = {
   isOpen: boolean;
