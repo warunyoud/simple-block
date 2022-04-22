@@ -14,7 +14,6 @@ import {
   NumberInput,
   NumberInputField,
   Text,
-  useDisclosure,
 } from '@chakra-ui/react'
 import Transaction from '../entities/Transaction';
 import { wallets } from '../constants/wallets';
